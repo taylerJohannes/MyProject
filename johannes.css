@@ -61,13 +61,14 @@ footer, header, hgroup, menu, nav, section {
 
 @media only screen and (min-width: 968px) {
 body {
-	background-image: url("desktopNavArrow_whiteBack.jpg");
-	background-size: 29%;
+	background-image: url("desktopLine.jpg");
+	background-size: 10%;
 	background-repeat: repeat-y;
-	background-position: top left;
+	background-position: 17% 100%;
 	position: static;
 	z-index: -1;
 }
+
 
 header {
 	
@@ -215,48 +216,8 @@ main .skillsFigure {
 }
 
 
-/*Blog styles	  */
 
-main .blogTitle {
-	letter-spacing: 5px;
-	font-family: 'Amatic-Bold';
-	font-size: 2.5em;
-	color: #339966;  /* green  */
-	text-align: left;
-	padding-top: 60px;
-}
 
-main .avatar {
-	width: 18%;
-	float: left;
-	padding-right: 25px;
-
-}
-
-main .blogArticle {
-	padding-bottom: 50px;
-	border-bottom: #EEEDED solid medium; /* light gray  */
-	clear: both;
-}
-
-main a {
-	color: #339966;  /* green  */
-	text-decoration: none;
-}
-
-main .blogDate {
-	color: gray;
-	font-family: "JosefinSans-Regular";
-	text-align: right;
-	font-size: 1em;
-}
-
-main .blogParagraph {
-	text-align: left;
-	font-family: "JosefinSans-Regular";
-	font-size: 1.5em;
-	padding-top: 25px;
-}
 
 main .skillsImage {
 	width: 45%;
@@ -415,10 +376,11 @@ header {
 
 
 body {
-		background-image: url("mobileNavArrow.jpg");
-	background-size: 46%;
+		background-image: url("mobileNavLine.jpg");
+	background-size: 49%;
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: 50% 1%;
+	
 	position: absolute;
 	z-index: -1;
 	}
@@ -430,7 +392,7 @@ body {
 section {
 	width: 90%;
 	float: none;
-	margin-top: 680px;
+	margin-top: 700px;
 	margin-left: 40px;
 }
 
@@ -452,23 +414,25 @@ section {
 
 @media only screen and (max-width: 895px){
 	body {
-		background-size: 50%;
+		background-size: 49%;
 	}
 
+
 	section {
-	margin-top: 650px;
+	margin-top: 670px;
 } 
-
-
-main .avatar {
-	width: 35%;
-}
 
 footer img {
 	width: 10%;
 	margin-right: 15px;
 }
 
+}
+
+@media only screen and (max-width: 850px){
+	body {
+		background-size: 52%;
+	}
 }
 
 @media only screen and (max-width: 800px){
@@ -481,9 +445,10 @@ footer img {
 }
 
 @media only screen and (max-width: 720px){
+	
 	body {
 		background-size: 56%;
-	}
+	}  
 	
 		section {
 	margin-top: 600px;
@@ -491,22 +456,25 @@ footer img {
 }
 
 @media only screen and (max-width: 670px){
+	
 	body {
 		background-size: 60%;
 	}
+	
 	
 	section {
 		margin-top: 630px;
 	}
 	
-	
-	
 }
 
 @media only screen and (max-width: 615px){
+	
 	body {
 		background-size: 65%;
 	}
+	
+	
 	
 	footer {
 		width:60%;
@@ -515,9 +483,11 @@ footer img {
 }
 
 @media only screen and (max-width: 570px){
+	
 	body {
-		background-size: 65%;
+		background-size: 67%;
 	}
+	
 	
 	section {
 		margin-top: 560px;
@@ -538,8 +508,9 @@ footer img {
 
 @media only screen and (max-width: 520px){
 	body {
-		background-size: 76%;
+		background-size: 77%;
 	}
+	
 	
 	.logo {
 		width: 40%;
@@ -553,6 +524,10 @@ footer img {
 }
 	
 @media only screen and (max-width: 484px){
+	body {
+		background-size: 78%;
+	}
+	
 	article .headings {
 		font-size: 1.7em;
 	}
@@ -567,14 +542,18 @@ footer img {
 
 
 @media only screen and (max-width: 480px){
+	
 	body {
-		background-size: 77%;
+		background-size: 80%;
 	}
+	
 }
 
 @media only screen and (max-width: 455px){
+	
 	body {
 		background-size: 83%;
+		
 	}
 	
 	 
@@ -594,6 +573,10 @@ footer img {
 
 
 @media only screen and (max-width: 437px){
+	body {
+		background-size: 89%;
+	}
+	
 	article .headings {
 		font-size: 1.7em;
 		letter-spacing: 2.7px;
@@ -601,14 +584,33 @@ footer img {
 }
 
 @media only screen and (max-width: 400px){
+	
 	body {
 		background-size: 93%;
 	}
+	
+	
 }
 
 @media only screen and (max-width: 375px){
 	body {
 		background-size: 98%;
+	}
+	
+	section {
+		margin-top: 580px;
+	}
+}
+
+@media only screen and (max-width: 360px){
+	body {
+		background-size: 108%;
+	}
+}
+
+@media only screen and (max-width: 305px){
+	body {
+		background-size: 118%;
 	}
 }
 
