@@ -589,6 +589,9 @@ footer img {
 		background-size: 93%;
 	}
 	
+	section {
+		margin-top: 570px;
+	}
 	
 }
 
@@ -604,7 +607,7 @@ footer img {
 
 @media only screen and (max-width: 360px){
 	body {
-		background-size: 108%;
+		background-size: 104%;
 	}
 }
 
