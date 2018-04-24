@@ -62,9 +62,9 @@ footer, header, hgroup, menu, nav, section {
 @media only screen and (min-width: 968px) {
 body {
 	background-image: url("desktopLine.jpg");
-	background-size: 29%;
+	background-size: 10%;
 	background-repeat: repeat-y;
-	background-position: top left;
+	background-position: 17% 100%;
 	position: static;
 	z-index: -1;
 }
@@ -421,7 +421,8 @@ body {
 		background-image: url("mobileNavLine.jpg");
 	background-size: 49%;
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: 50% 1%;
+	
 	position: absolute;
 	z-index: -1;
 	}
