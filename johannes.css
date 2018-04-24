@@ -61,7 +61,7 @@ footer, header, hgroup, menu, nav, section {
 
 @media only screen and (min-width: 968px) {
 body {
-	background-image: url("desktopNavLine.jpg");
+	background-image: url("desktopLine.jpg");
 	background-size: 29%;
 	background-repeat: repeat-y;
 	background-position: top left;
