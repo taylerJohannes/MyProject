@@ -69,6 +69,7 @@ body {
 	z-index: -1;
 }
 
+
 header {
 	
 	position: fixed;
@@ -118,9 +119,6 @@ nav li {
 	padding-bottom: .5em;
 	text-align: center;
 }
-
-
-
 
 nav a {
 	text-decoration: none;
@@ -218,48 +216,8 @@ main .skillsFigure {
 }
 
 
-/*Blog styles	  */
 
-main .blogTitle {
-	letter-spacing: 5px;
-	font-family: 'Amatic-Bold';
-	font-size: 2.5em;
-	color: #339966;  /* green  */
-	text-align: left;
-	padding-top: 60px;
-}
 
-main .avatar {
-	width: 18%;
-	float: left;
-	padding-right: 25px;
-
-}
-
-main .blogArticle {
-	padding-bottom: 50px;
-	border-bottom: #EEEDED solid medium; /* light gray  */
-	clear: both;
-}
-
-main a {
-	color: #339966;  /* green  */
-	text-decoration: none;
-}
-
-main .blogDate {
-	color: gray;
-	font-family: "JosefinSans-Regular";
-	text-align: right;
-	font-size: 1em;
-}
-
-main .blogParagraph {
-	text-align: left;
-	font-family: "JosefinSans-Regular";
-	font-size: 1.5em;
-	padding-top: 25px;
-}
 
 main .skillsImage {
 	width: 45%;
@@ -459,14 +417,10 @@ section {
 		background-size: 49%;
 	}
 
+
 	section {
 	margin-top: 670px;
 } 
-
-
-main .avatar {
-	width: 35%;
-}
 
 footer img {
 	width: 10%;
@@ -474,7 +428,6 @@ footer img {
 }
 
 }
-
 
 @media only screen and (max-width: 850px){
 	body {
@@ -492,9 +445,10 @@ footer img {
 }
 
 @media only screen and (max-width: 720px){
+	
 	body {
 		background-size: 56%;
-	}
+	}  
 	
 		section {
 	margin-top: 600px;
@@ -502,22 +456,25 @@ footer img {
 }
 
 @media only screen and (max-width: 670px){
+	
 	body {
 		background-size: 60%;
 	}
+	
 	
 	section {
 		margin-top: 630px;
 	}
 	
-	
-	
 }
 
 @media only screen and (max-width: 615px){
+	
 	body {
 		background-size: 65%;
 	}
+	
+	
 	
 	footer {
 		width:60%;
@@ -526,6 +483,7 @@ footer img {
 }
 
 @media only screen and (max-width: 570px){
+	
 	body {
 		background-size: 67%;
 	}
@@ -552,6 +510,7 @@ footer img {
 	body {
 		background-size: 77%;
 	}
+	
 	
 	.logo {
 		width: 40%;
@@ -583,14 +542,18 @@ footer img {
 
 
 @media only screen and (max-width: 480px){
+	
 	body {
 		background-size: 80%;
 	}
+	
 }
 
 @media only screen and (max-width: 455px){
+	
 	body {
 		background-size: 83%;
+		
 	}
 	
 	 
@@ -653,5 +616,10 @@ footer img {
 		background-size: 118%;
 	}
 }
+
+b {
+	font-weight: bold;
+}
+
 
 
